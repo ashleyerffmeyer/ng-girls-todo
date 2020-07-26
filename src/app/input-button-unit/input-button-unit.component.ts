@@ -3,11 +3,6 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'app-input-button-unit',
   template: `
-    <!-- <p>
-      input-button-unit works!
-      The title is: {{ title }}
-    </p> -->
-
     <input class="todo-input"
           #inputElementRef
           [value]="title"
@@ -24,7 +19,7 @@ export class InputButtonUnitComponent implements OnInit {
 
   @Output() submit: EventEmitter<string> = new EventEmitter();
 
-  title = 'Hello World';
+  title = 'Add an item to the To Do List';
 
   constructor() { }
 

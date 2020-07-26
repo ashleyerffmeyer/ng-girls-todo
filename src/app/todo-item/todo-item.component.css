@@ -18,5 +18,5 @@
 }
 
 .todo-complete {
-  text-decoration: line-through red;
+  text-decoration: line-through #F95965;
 }

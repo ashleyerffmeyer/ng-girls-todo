@@ -8,7 +8,7 @@ h1, p, ul, li {
 }
 
 body {
-  background: #f1f1f1;
+  background: #fcf5f7;
   font-size: 16px;
   line-height: 22px;
   color: #404040;
@@ -20,8 +20,8 @@ ol, ul {
 }
 
 .btn {
-  background: lightseagreen;
-  color: #fff;
+  background: #4baaa5;
+  color: #f7dbc6;
   padding: 3px 10px;
   margin: 0 0 0 3px;
   border: none;
@@ -37,11 +37,11 @@ ol, ul {
 }
 
 .btn-red {
-  background: red;
+  background: #fb829D;
 }
 
 .btn-red:hover {
-  background: darkred;
+  background: #F95965;
 }
 
 .app-title {
